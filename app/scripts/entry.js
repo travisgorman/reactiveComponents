@@ -15,7 +15,7 @@ const App = React.createClass({
     return (
       <div>
         <nav className="card">
-          <Link to="/Modal1">Jackie</Link>
+          <Link to="Modal1">Jackie</Link>
           <Link to="/Modal2">Marlon</Link>
           <Link to="/Modal3">Jermaine</Link>
           <Link to="/Modal4">Tito</Link>
@@ -30,7 +30,7 @@ const App = React.createClass({
 const router = (
   <Router history={hashHistory}>
     <Route path="/" component={App}>
-      <Route path="Modal1" component={Modal1}/>
+      <Route path="Modal1*" component={Modal1}/>
       <Route path="Modal2" component={Modal2}/>
       <Route path="Modal3" component={Modal3}/>
       <Route path="Modal4" component={Modal4}/>
