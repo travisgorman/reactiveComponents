@@ -1,3 +1,9 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
 
+a {
+  margin: 3rem; }
 
 /*# sourceMappingURL=main.css.map */
